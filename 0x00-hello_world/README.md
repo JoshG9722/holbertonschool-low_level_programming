@@ -1,0 +1,1 @@
+Learning about the basics of the C programming language and what it can accomplish.
