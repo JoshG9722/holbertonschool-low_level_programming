@@ -6,13 +6,15 @@
     * main - entry point
     * Return: always 0 (success)
     */
-    int main(void)
-    {
+int main(void)
+{
         char al;
 
-        for(al = 'A'; al <= 'Z'; al++){
-            putchar(al);
-    }
+        for(al = 'A'; al <= 'Z'; al++)
+        {
+               putchar(al);   
+        }
         putchar ('\n');
+   
         return (0);
-    }
+}
