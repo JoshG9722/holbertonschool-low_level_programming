@@ -1,17 +1,15 @@
 #include <stdio.h>
-#include <stdlib.h>
-#include <time.h>
-
 /**
-    * main - entry point
-    * Return: always 0 (success)
-    */
-    int main(void)
-    {
-        char al;
+  * main - entry point
+  * Return: always 0 (success)
+**/
 
-        for(al = 'A'; al <= 'Z'; al++){
-            putchar(al);
-    }
-        return (0);
-    }
+int main(void)
+{
+	char al;
+
+	for (al = 'a'; al <= 'z'; al++)
+		putchar(al);
+	putchar('\n');
+	return (0);
+}
