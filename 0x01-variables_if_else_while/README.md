@@ -1,0 +1,1 @@
+Learning about C variables, as well as if/else statements, and while/do while, and for loops.
