@@ -10,8 +10,8 @@ int main(void)
 
 	for (i=0; i < 10; i++)
             putchar(i % 10 + '0');
-    for (al = 'a'; al < 'g'; al++)
-            putchar(al);
-    putchar('\n');
-    return (0);
+    	for (al = 'a'; al < 'g'; al++)
+            	putchar(al);
+    	putchar('\n');
+    	return (0);
 }
