@@ -5,10 +5,13 @@
 **/
 int main(void)
 {
-    int i;
+	int i = 0;
 
-	for (i = 0; i < 10; i++)
+	while (i < 10)
+	{
 		putchar(i % 10 + '0');
-	printf('\n');
+		i++;
+	}
+	putchar('\n');
 	return (0);
 }
