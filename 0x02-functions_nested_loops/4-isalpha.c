@@ -4,7 +4,7 @@
  * @c: checks to see if char is lowercase or uppercase
  * Return: Always 0 (success)
  */
-int main(void)
+int _isalpha(int c)
 {
     if (c >= 'a' && c <= 'z')
     {
