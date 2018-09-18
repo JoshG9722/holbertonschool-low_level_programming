@@ -4,7 +4,7 @@
  *
  * Return: Always 0 (success)
  */
-int main(void)
+int _islower(int c)
 {
 	char c;
 
