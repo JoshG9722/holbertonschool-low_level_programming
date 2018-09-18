@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * main - entry point
+ * print_alphabet - entry point
  * Return: always 0 (success)
 **/
 
-int main(void)
+void print_alphabet(void)
 {
     int al;
 
