@@ -4,7 +4,7 @@
  * @n: num passed to function
  * Return: always 0(success)
  */
-int print_last_digit(int n);
+int print_last_digit(int n)
 {
     	int i;
 
