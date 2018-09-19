@@ -10,4 +10,3 @@ int add(int i, int n)
 	c = i + n;
 	return (c);
 }
-
