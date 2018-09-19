@@ -1,7 +1,8 @@
+
 #include "holberton.h"
 /**
  * times_table - entry point
- * @void - returns void
+ * @void
  */
 void times_table(void)
 {
@@ -30,10 +31,4 @@ void times_table(void)
 				_putchar(n + '0');
 			}
 			if (j != 9)
-				_putchar(',');
-
-		}
-		_putchar('\n');
-	}
-}
-
+				_putchar(',')
