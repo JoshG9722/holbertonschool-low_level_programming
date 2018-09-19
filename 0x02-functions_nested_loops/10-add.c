@@ -1,13 +1,14 @@
 #include "holberton.h"
 /**
  * add - entry point
- * @void
+ * @a: num passed to function
+ * @b: num passed to function
+ * Return: value of c
  */
-int add(int i, int n)
+int add(int a, int b)
 {
 	int c;
 
-	c = i + n;
+	c = a + b;
 	return (c);
 }
-
