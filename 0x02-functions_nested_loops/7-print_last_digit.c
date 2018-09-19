@@ -20,5 +20,3 @@ int print_last_digit(int);
 	}
 	return (0);
 }
-
-
