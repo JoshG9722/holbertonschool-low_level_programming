@@ -2,7 +2,7 @@
 /**
  * print_last_digit - entry point
  * @n: num passed to function
- * Return: always 0(success)
+ * Return: value of last digit
  */
 int print_last_digit(int n)
 {
@@ -18,5 +18,5 @@ int print_last_digit(int n)
 		i = (n % 10);
 		_putchar(i + '0');
 	}
-	return (0);
+	return (i);
 }
