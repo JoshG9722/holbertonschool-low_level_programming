@@ -1,12 +1,12 @@
 #include "holberton.h"
 /**
  * print_last_digit - entry point
- * @n: num passed to function
- * Return: always 0(success)
+ * @n: num passed to the function
+ * Return: Value of last digit
  */
-int print_last_digit(int);
+int print_last_digit(int n)
 {
-    	int i;
+	int i;
 
 	if (n < 0)
 	{
@@ -18,7 +18,5 @@ int print_last_digit(int);
 		i = (n % 10);
 		_putchar(i + '0');
 	}
-	return (0);
+	return (i);
 }
-
-
