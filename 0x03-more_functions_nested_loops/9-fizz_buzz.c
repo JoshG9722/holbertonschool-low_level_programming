@@ -1,7 +1,8 @@
 #include <stdio.h>
+
 /**
   * main - entry point
-  * void: empty argument
+  * void: empty argument 
   * Return: always 0(success)
   */
 int main(void)
@@ -25,7 +26,7 @@ int main(void)
 		{
 			printf("%d ", i);
 		}
-    printf("Buzz");
+	printf("Buzz");
 	printf("\n");
 	return (0);
 }
