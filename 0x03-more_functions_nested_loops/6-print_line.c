@@ -1,11 +1,12 @@
 #include "holberton.h"
 /**
- *print_line - prints line n amount of times
- * @n: var passed to function
+ *print_line - printing line across terminal with variable passed
+ * @n: variable passed to function
  */
 void print_line(int n)
 {
 	char i;
+
 	if (n > 0)
 	{
 		i = 0;
