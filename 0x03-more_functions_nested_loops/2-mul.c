@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * mult - entry point
- * @a: num passed to function
+ * mul - multiply two ints
+ * @a: num passed to the function
  * @b: num passed to function
- * Return: value of c
+ * Return: int
  */
 int mul(int a, int b)
 {
