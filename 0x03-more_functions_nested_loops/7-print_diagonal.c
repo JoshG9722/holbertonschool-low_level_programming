@@ -1,32 +1,35 @@
-#include <stdio.h>
-
+#include "holberton.h"
 /**
-  * main - entry point
-  * void: empty argument
-  * Return: always 0(success)
-  */
-int main(void)
+ * print_diagonal - printing diagonal line
+ * returns:void 
+ */
+void print_diagonal(int n)
 {
-	int i;
+	char i;
+	char j;
 
-	for (i = 1; i < 100; i++)
-		if (i % 15 == 0)
+	if (n > 0)
+	{
+		i = 0;
+		while (i < n)
 		{
-			printf("FizzBuzz ");
+			for (j = 0; j <= i; j++)
+			{
+				if (i == j)
+				{
+					_putchar('\\');
+					_putchar('\n');
+				}
+				else
+				{
+				_putchar(' ');
+				}
+			}
+			i++;
 		}
-		else if (i % 5 == 0)
-		{
-			printf("Buzz ");
-		}
-		else if (i % 3 == 0)
-		{
-			printf("Fizz ");
-		}
-		else
-		{
-			printf("%d ", i);
-		}
-	printf("Buzz");
-	printf("\n");
-	return (0);
+	}
+	else
+	{
+		_putchar('\n');
+	}
 }
