@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
- * print_diagonal - prints diagonal line
- * return - void
+ * print_diagonal - printing diagonal line
+ * @n: number passed to function
  */
-void main(int n)
+void print_diagonal(int n)
 {
 	char i;
 	char j;
