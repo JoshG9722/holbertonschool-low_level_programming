@@ -1,7 +1,7 @@
 #include "holberton.h"
 /**
- * more_numbers - printing loops of numbers
- * returns: void
+ * more_numbers - repeats num loop
+ * void - empty argument
  */
 void more_numbers(void)
 {
