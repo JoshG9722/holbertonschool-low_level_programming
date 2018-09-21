@@ -3,7 +3,7 @@
  *print_line - prints line n amount of times
  * @n: var passed to function
  */
-void main (int n)
+void print_line(int n)
 {
 	char i;
 	if (n > 0)
