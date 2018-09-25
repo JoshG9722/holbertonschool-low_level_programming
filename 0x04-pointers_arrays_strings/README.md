@@ -1,0 +1,1 @@
+This project made me learn about pointers and how to use them, as well as arrays, and what the differences are between the two. This project also made me learn about how to use strings and how to manipulate them.
