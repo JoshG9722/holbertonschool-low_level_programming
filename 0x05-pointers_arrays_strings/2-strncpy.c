@@ -4,7 +4,7 @@
   * @dest: destination of string
   * @src: source of string
   * @n: byte of src
-  * Return: dest
+  * Return: dest(success)
   */
 char *_strncpy(char *dest, char *src, int n)
 {
