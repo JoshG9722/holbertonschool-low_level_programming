@@ -1,9 +1,9 @@
 #include "holberton.h"
 /**
  * _strpbrk - searches string for any set of bytes
- * @s: string
- * @accept: string comparing string 
- * Return: '/0' or s+i
+ * @s: string being passed
+ * @accept: string to be compared to
+ * Return: char type
  */
 char *_strpbrk(char *s, char *accept)
 {
