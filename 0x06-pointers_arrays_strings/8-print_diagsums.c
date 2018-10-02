@@ -1,9 +1,9 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
- * print_diagsums - prints sum of two diagonals
+ * print_diagsums - print sum of two diagonals
  * @a: array
- * @size: size 
+ * @size: size
  * Return - void
  */
 void print_diagsums(int *a, int size)
