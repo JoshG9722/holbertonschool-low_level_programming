@@ -1,8 +1,8 @@
 #include "holberton.h"
 /**
-  * _strchr - locates character in string
+  * strchr - locates character in string
   * @s: string
-  * @c: character
+  * @c: char
   * Return: s + i
   */
 char *_strchr(char *s, char c)
