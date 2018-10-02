@@ -3,7 +3,7 @@
   * _strspn - gets length of prefix substring
   * @s: string
   * @accept: accept string
-  * Return: k(bytes from accept)
+  * Return: k(byte count from accept)
   */
 unsigned int _strspn(char *s, char *accept)
 {
