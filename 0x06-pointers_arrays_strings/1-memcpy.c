@@ -1,6 +1,6 @@
 #include "holberton.h"
 /**
-  * memcpy - copies memory of src to dest
+  * _memcpy - copies memory of src to dest
   * @dest: destination
   * @src: source
   * @n: buffer size
