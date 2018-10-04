@@ -1,30 +1,28 @@
 #include "holberton.h"
+int checker_prime(int, int);
 /**
   * is_prime_number - returns prime number
-  * @n: takes int
+  * @n: int
   * Return: int
   */
 int is_prime_number(int n)
 {
-	if (n == 1 || n < 0)
+	if (n < 2)
 		return (0);
 	return (checker_prime(2, n));
 }
+
 /**
   * checker_prime - helps find the prime number
-  * @i: takes int
-  * @n: takes int
+  * @i: int
+  * @j: int
   * Return: int
   */
 int checker_prime(int i, int j)
 {
-	if (j == i)
-	{
+	if (i == j)
 		return (1);
-	}
-	else if (j % i == 0)
-	{
+	if (j % i == 0)
 		return (0);
-	}
 	return (checker_prime(i + 1, j));
 }
