@@ -1,32 +1,30 @@
 #include "holberton.h"
+int natural(int i, int j);
 /**
- * _sqrt_recursion - returns natural square root of number
+ * _sqrt_recursion - returns the natural square root of a num
  * @n: int
  * Return: int
  */
 int _sqrt_recursion(int n)
 {
-	return (natural_sqr(n, 1));
+	if (n == 1)
+		return (n);
+	if (n <= 0)
+		return (-1);
+	return (natural(1, n));
 }
 
 /**
- * natural_sqr - helper function
- * @i: takes int
- * Return: int
+ * natural - returns natural square root of a num
+ * @base: int
+ * @goal: int
+ * Return: integer
  */
-int natural_sqr(int n, int  i)
+int natural(int i, int j)
 {
-	if (i * i == n)
-	{
+	if (i == j)
+		return (-1);
+	if (i * i == j)
 		return (i);
-	}
-	if (i * i > n)
-	{
-		return (-1);
-	}
-	if (n < 0)
-	{
-		return (-1);
-	}
-	return (natural_sqr(n, i = i + 1));
+	return (natural(i + 1, j));
 }
