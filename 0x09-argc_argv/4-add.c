@@ -6,7 +6,7 @@
  * main - adds positive numbers
  * @argc: argument count
  * @argv: array of arguments
- * Return: 0(success)
+ * Return: 0(Success)
  */
 int main(int argc, char *argv[])
 {
