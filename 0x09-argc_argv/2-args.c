@@ -1,8 +1,8 @@
 #include "holberton.h"
 #include <stdio.h>
 /**
-  * main - entry point
-  * @argc: argument count
+  * main - prints out arguments
+  * @argc: counts arguments
   * @argv: takes array
   * Return: 0(success)
   */
