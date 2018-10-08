@@ -5,7 +5,7 @@
  * main - prints program name
  * @argc: argument count
  * @argv: array of strings
- * Return: 0(success)
+ * Return: int
  */
 int main(int argc, char *argv[])
 {
