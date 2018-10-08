@@ -4,7 +4,7 @@
 /**
  * main - prints argument count
  * @argc: argument count
- * Return: 0(success)
+ * Return: integer
  */
 int main(int argc, char *argv[]__attribute__((__unused__)))
 {
