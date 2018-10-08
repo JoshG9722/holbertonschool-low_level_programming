@@ -2,8 +2,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
-  * main - entry point
-  * @argc: counts arguments
+  * main - multiplies two numbers
+  * @argc: takes arguments
   * @argv: array of arguments
   * Return: 0(success)
   */
