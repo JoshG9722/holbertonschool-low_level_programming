@@ -1,0 +1,1 @@
+Learning more about pointers, arrays, and strings, as well as how to use them.
