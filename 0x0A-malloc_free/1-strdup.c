@@ -1,44 +1,30 @@
 #include "holberton.h"
 #include <stdio.h>
 #include <stdlib.h>
+
 /**
- * _strdup - function returns pointer to new string
- * @str: string that is being passed
- * Return: pointer
+ * _strdup - returns pointer to newly allocated space in memory, which contains copy of the string given as parameter
+ * @str: Takes string
+ *
+ * Return: Pointer to the newly allocated space in memory
  */
+
 char *_strdup(char *str)
 {
+	int length = 0;
 	char *str2;
-	int i;
-	int length;
+	char *a;
 
-	if (str == NULL)
-	{
-		return (NULL);
-	}
-	length = _strlen(str);
-	str2 = malloc(length + 1 * sizeof(char));
-	i = 0;
-	while (i < length)
-	{
-		str2[i] = str[i];
-		i++;
-	}
+	while (str[length])
+		length++;
+
+	str2 = (char *)malloc(sizeof(char) * (length + 1));
+	a = str2;
+
+	while (*str)
+		*a++ = *str++;
+
+	*a = '\0';
+
 	return (str2);
-	free(str2);
-}
-
-/**
- * _strlen - prints length string in integer
- * @s: string passed to function
- * Return: a
- */
-int _strlen(char *s)
-{
-	int a = 0;
-
-	while (*(s + a))
-		a++;
-
-	return (a);
 }
