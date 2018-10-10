@@ -7,21 +7,18 @@
  * @av: arguments
  * return: NULL or str
  */
-char *argtostr(int ac, char **av)
+char *argstostr(int ac, char **av)
 {
-	int i;
-	int j;
-	int k;
-	int size;
+	int i, j, k, size;
 	char *str;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
 	for (i = 0; i < ac; i++)
 	{
-		for (k = 0; av[i][j] != '\0'; j++)
+		for (j = 0; av[i][j] != '\0'; j++)
 			;
-		size = size + j + 1;
+		size += j + 1;
 	}
 	str = malloc(size + 1);
 	if (str == 0)
